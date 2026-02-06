@@ -1,8 +1,8 @@
 package se.iths.lukas.labb2.exception;
 
-public class InvaludAmountException extends RuntimeException {
+public class InvalidAmountException extends RuntimeException {
 
-    public invalidAmountException(String message) {
+    public InvalidAmountException(String message) {
         super(message);
     }
 }
